@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio creativo de Andre Acosta, Desarrollador Full Stack">
+    <link rel="icon" type="image/png" href="assets/img/AA_topic_icon.png">
+    <title>Andre Acosta | Portafolio Creativo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating background elements -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <a href="#">AA</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="particles-js"></div>
+        <div class="container hero-content">
+            <h3 class="hero-subtitle">Hola, mi nombre es</h3>
+            <h1 class="hero-title">Andre <span class="hero-highlight">Acosta</span></h1>
+            <h1 class="hero-title">Desarrollador <span class="hero-highlight">Full Stack</span></h1>
+            <p class="hero-description">
+                Ingeniero de sistemas apasionado por crear soluciones digitales innovadoras. 
+                Especializado en desarrollo web con tecnologías modernas y enfoque en experiencia de usuario.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn">Ver mis proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre mí</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?q=80&w=1480&auto=format&fit=crop" alt="Andre Acosta">
+                </div>
+                <div class="about-text">
+                    <h3>¡Hola! Soy Andre, desarrollador Full Stack</h3>
+                    <p>
+                        Soy un ingeniero de sistemas con experiencia en el desarrollo de aplicaciones web. 
+                        Tengo conocimientos de tecnologías en base de datos relacionales como MySQL, Oracle, 
+                        PostgreSQL y SQLServer, y no relacionales como MongoDB.
+                    </p>
+                    <p>
+                        En backend, me especializo en Java y Spring Boot empleando arquitecturas como 
+                        Monolíticos y Microservicios. En frontend, utilizo herramientas como Angular, 
+                        Bootstrap, Angular Material, HTML, CSS y JavaScript.
+                    </p>
+                    <p>
+                        Además, tengo experiencia aplicando metodologías ágiles como SCRUM. 
+                        Mis metas son seguir ampliando mis conocimientos y habilidades relacionadas 
+                        al desarrollo y contribuir con ideas innovadoras a equipos de trabajo.
+                    </p>
+                    <div class="skills-tools">
+                        <div>
+                            <h4>Habilidades Técnicas</h4>
+                            <ul class="skills-list">
+                                <li>Java & Spring Boot</li>
+                                <li>Angular & JavaScript</li>
+                                <li>Bases de datos SQL/NoSQL</li>
+                                <li>API REST & Microservicios</li>
+                                <li>Docker & CI/CD</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Herramientas</h4>
+                            <ul class="tools-list">
+                                <li>Git & GitHub</li>
+                                <li>VS Code & IntelliJ</li>
+                                <li>Docker & Kubernetes</li>
+                                <li>Postman</li>
+                                <li>Metodologías Ágiles</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mis Habilidades</h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML & CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Angular</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Spring Boot</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">PostgreSQL</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Oracle</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experiencia</h2>
+                <div class="line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Dic 2024 - Mar 2025</div>
+                        <h3 class="timeline-title">Backend Developer</h3>
+                        <div class="timeline-company">Beez.pe</div>
+                        <p class="timeline-description">
+                            Colaboré en el backend de funcionalidades para landing pages, creando servicios REST con Spring Boot para publicar contenido en redes y gestionar registros. Integré la API Graph de Meta para Facebook/Instagram, Cloudinary para imágenes y Thumbnailator para redimensionarlas.
+                        </p>
+                        <div class="timeline-technologies">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">API Graph</span>
+                            <span class="tech-tag">Cloudinary</span>
+                            <span class="tech-tag">Railway</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Abr 2023 - Nov 2024</div>
+                        <h3 class="timeline-title">Desarrollador Full Stack</h3>
+                        <div class="timeline-company">Freelance</div>
+                        <p class="timeline-description">
+                            Desarrollo de sistemas web personalizados para diversos clientes. Implementación de soluciones completas desde el diseño de interfaces hasta la implementación de APIs y bases de datos.
+                        </p>
+                        <div class="timeline-technologies">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Ene 2022 - Mar 2023</div>
+                        <h3 class="timeline-title">Prácticas Profesionales</h3>
+                        <div class="timeline-company">Empresa XYZ</div>
+                        <p class="timeline-description">
+                            Desarrollo de módulos para sistema de gestión interna. Implementación de APIs RESTful, integración con bases de datos y desarrollo de componentes frontend.
+                        </p>
+                        <div class="timeline-technologies">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Proyectos</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1470&auto=format&fit=crop" alt="Sistema de Control de Ventas">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Control de Ventas</h3>
+                        <p class="project-description">
+                            Sistema completo para gestión de ventas e inventario con generación de reportes, envío automático de mensajes por WhatsApp y control de stock.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">WhatsApp API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="backend">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?q=80&w=1470&auto=format&fit=crop" alt="API Gestión de Registros">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">API Gestión de Registros</h3>
+                        <p class="project-description">
+                            API para gestión de usuarios con notificaciones automáticas por correo electrónico al administrador con los datos de nuevos registros.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">JavaMailSender</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="backend">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?q=80&w=1470&auto=format&fit=crop" alt="Backend para Landing Page">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Backend para Landing Page</h3>
+                        <p class="project-description">
+                            Implementación de API Graph de Meta para publicar automáticamente contenido en Facebook e Instagram desde landing pages.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">API Graph</span>
+                            <span class="tech-tag">Cloudinary</span>
+                            <span class="tech-tag">Thumbnailator</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1374&auto=format&fit=crop" alt="Sistema de Inventario">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Inventario</h3>
+                        <p class="project-description">
+                            Sistema donde cada usuario puede administrar su propio inventario con reportes clave y roles personalizados.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Spring Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=1470&auto=format&fit=crop" alt="Anotador de Productos">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Anotador de Productos</h3>
+                        <p class="project-description">
+                            Aplicación web responsive para registrar productos con exportación a PDF y Excel.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">jsPDF</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:lougui.acosta@upeu.edu.pe">lougui.acosta@upeu.edu.pe</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Ubicación</h3>
+                            <p>Nuevo Chimbote, Perú</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Redes Sociales</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/Andre-Acosta2022" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Andre-Acosta2022" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <p class="copyright">© 2025 Andre Acosta. Todos los derechos reservados.</p>
+        </div>
+        <div class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
